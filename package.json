@@ -1,0 +1,21 @@
+{
+  "name": "twitterStreamingANGULAR",
+  "version": "0.0.1",
+  "description": "An app to display the last 10 tweets on a topic, updates live via socket.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "twitter",
+    "angular",
+    "socket.io"
+  ],
+  "author": "Christian Townsdin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.4",
+    "mongoose": "^4.0.5"
+  }
+}
